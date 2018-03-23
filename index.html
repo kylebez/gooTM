@@ -29,7 +29,8 @@ function initialize() {
     		center: new google.maps.LatLng(lat,lon),
     		zoom:zoom,
     		mapTypeId:google.maps.MapTypeId.HYBRID,			
-			streetViewControl: false,					
+			streetViewControl: false,
+			fullscreenControl: false,				
 			zoomControlOptions: {position:google.maps.ControlPosition.RIGHT_TOP,style:google.maps.ZoomControlStyle.SMALL},			
 			minZoom:1};		
 		gm.removeChild(lod);
@@ -184,15 +185,8 @@ body,td,th,div {
 	text-overflow: ellipsis;
 	width: 400px;
 }
-
-@keystrokes {
-}
-
-i .d1{
-}
-i .d2{
-}
-i .d3{
+.capchild{
+	font-size:400%
 }
 </style>
 </head>
