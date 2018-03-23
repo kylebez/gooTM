@@ -153,7 +153,7 @@ function initialize() {
 		   var marklon = markpos.lng();
 		   var UTMzone = Math.floor ((marklon + 180.0) / 6) + 1;		   
 		   UTMzone = LatLonToUTMXY(DegToRad(marklat),DegToRad(marklon),UTMzone,UTMXY);
-		   var UTMStr = "Easting: "+UTMXY[0]+", Northing: "+UTMXY[1]+", Zone: "+UTMzone+UTMHem;
+		   var UTMStr = "Easting: "+UTMXY[0]+" </br>Northing: "+UTMXY[1]+"</br>Zone: "+UTMzone+UTMHem;
 		   return UTMStr;
 	  }
 }
