@@ -6,4 +6,4 @@ Uses Google Maps API.
 
 Pretty nerdy and self-explanatory.
 
-This was the first web projext I have ever done, so it isn't polished.
+This was the first web project I have ever done, so it isn't polished.
